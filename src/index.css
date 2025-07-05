@@ -1,0 +1,10 @@
+@import "tailwindcss";
+body {
+  font-family: "General", sans-serif;
+  width: 100dvw;
+  background-color: var(--color-white-50);
+  background: url("./assets/images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  overflow-y: auto;
+}
