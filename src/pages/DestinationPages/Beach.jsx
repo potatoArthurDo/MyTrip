@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 
 const Beach = () => {
   const { name } = useParams();
@@ -88,6 +88,67 @@ const getImage = (filename) => {
       note: "Tin vợ ông anh bên cạnh. Thấy các chị em nghe vẻ thích bãi này.",
       summary: "organic",
     },
+    {
+        name: "Eo Gió",
+        image: [
+            getImage("eogio.png"),
+            getImage("eogio1.png"),
+            getImage("eogio2.png"),
+        ],
+        description:"Eo Gió là điểm check in cực Nam của đảo, cách Minh Châu khoảng 18km, cách trung tâm Quan Lạn khoảng 8km. Có thể đi xe điện tới chân núi rồi đi bộ hoặc thuê xe ôm (20k/lượt) hoặc tự lái xe máy lên. Có nhiều vị trí check-in và ngắm cảnh ở Eo Gió. Muốn ngắm cảnh bình minh thì phải dậy sớm, tự lái xe máy lên vì mùa hè khoảng 5h là bình minh rồi. Muốn chụp ảnh đẹp thì nên tới vào buổi chiều. Trên đường tới Eo Gió nhớ dừng ở dốc Eo Gió để chụp ảnh nha.",
+        note:"Đông ngườ leo, nhìn tưởng đi tỉnh kinh :>>",
+        summary:"industry baby",
+    },
+    {
+        name: "Núi Bò Xi",
+        image: [
+            getImage("nuiboxi.png"),
+            getImage("nuiboxi1.png"),
+        ],  
+        description:"'Cảnh rất đẹp không kém Eo gió mà còn đỡ đông!!', ",
+        note:"idk, trông nhiều cỏ nhìn sợ muỗi cắn thế đ nào ý.",
+        summary:"organic gọi bằng cụ",
+    },
+    {
+        name: "Đồi vô cực",
+        image: [
+            getImage("doivocuc.png"),
+            getImage("doivocuc1.png"),
+        ],
+        description:"'Hầu như không có sóng điện thoại???', 'Cực dốc, cực nắng, cực gió'",
+        note:"có hàng quán nước uống nhiều, thấy khen ngon. Đường dốc, yếu tay thò khôi, thà đi bộ. ( spoiler: 'mệt gần chết')",
+        summary:"industry baby with a hint of organic",
+    },
+    {
+        name: "Bãi đá tình yêu",
+        image: [
+            getImage("baidatinhyeu.png"),
+            getImage("baidatinhyeu1.png"),
+            getImage("baidatinhyeu2.png"),
+        ],
+        description:". Bãi đá Tình Yêu Quan Lạn là một tuyệt tác tự nhiên độc đáo, nơi những tảng đá cuội khổng lồ với đủ hình thù nằm đan xen trên nền cát trắng mịn, trải dài sát mép biển. Từng đợt sóng vỗ nhẹ nhàng, tạo nên bản hòa ca dịu dàng của biển cả, góp phần tô điểm cho khung cảnh thêm phần nên thơ, lãng mạn. Càng dạo bước xa hơn dọc bờ biển, du khách sẽ càng bất ngờ khi bãi đá hiện ra ngày càng phong phú, sống động và tràn đầy cảm hứng khám phá.",
+        note:"Không có mấy review?",
+        summary:"organic gọi bằng cụ",
+    },
+    {
+        name: "Dòng sông đôi bờ cát trắng",
+        image: [
+            getImage("dongsongcattrang.png"),
+        ],
+        description:"'Vào chụp ảnh rồi đi về', 'Bẩn thỉu, hôi??', 'có cỏ lau', 'có cát trắng và một dòng sông cũng không phải là trong hay đục,tôi đánh giá là tẻ nhạt",
+        note:"mé quả tên ngon ghẻ thế! catfish vl",
+        summary:"organic catfish",
+    },
+    {
+        name: "Cung đường ven biển",
+        image:[
+            getImage("cungduongvenbien.png"),
+        ],
+        description:"Chụp đứng đường",
+        note:"chụp cho có ảnh phượt, btw thk nào đặt tên ngon ghẻ v",
+        summary:"industry baby",
+
+    }
   ];
   const beach = beaches.find((b) => b.name === decodedName);
 

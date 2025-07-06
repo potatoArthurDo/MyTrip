@@ -13,7 +13,7 @@ import Destinations from './pages/PlanningPages/Destinations'
 import Budget from './pages/PlanningPages/Budget'
 import Eat from './pages/PlanningPages/Eat'
 import Packing from './pages/PlanningPages/Packing'
-import Beach from './pages/Beach'
+import Beach from './pages/DestinationPages/Beach'
 
 
 function App() {
