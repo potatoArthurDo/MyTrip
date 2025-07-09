@@ -87,7 +87,7 @@ const Destinations = () => {
   return (
     <>
       <Header header="Destinations" />
-      <div className="bg-pink-100 h-auto absolute top-[30%] left-[10%] w-[18rem] border-1 border-gray-50 m-1">
+      <div className="bg-pink-100 h-auto absolute top-[30%] left-[10%] lg:left-[20%] w-[18rem] border-1 border-gray-50 m-1 z-10">
         <PlanningTitle title="Overview" />
         <img
           src={getImage("overview.jpg")}
