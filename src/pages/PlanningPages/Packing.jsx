@@ -9,7 +9,7 @@ const Packing = () => {
         {/* essentials */}
         <PlanningTitle title={"Essentials"} />
         <div className="bg-white m-2.5">
-          <ul class="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
+          <ul className="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
             <li>👕 Clothes (5 outfits + (bring more if needed))</li>
             <li>🩱 Swimsuits (2–3)</li>
             <li>🧦 Underwear & socks</li>
@@ -23,7 +23,7 @@ const Packing = () => {
         {/* toiletries */}
         <PlanningTitle title={"Toiletries"} />
         <div className="bg-white m-2.5">
-          <ul class="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
+          <ul className="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
             <li>🪥 Toothbrush + toothpaste</li>
             <li>🧼 Face wash / moisturizer</li>
             <li>🧴 Shampoo + conditioner</li>
@@ -39,7 +39,7 @@ const Packing = () => {
         {/* Optional */}
         <PlanningTitle title={"Optional but still quite needed?"} />
         <div className="bg-white m-2.5">
-          <ul class="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
+          <ul className="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
             <li>😴 Sleepwear</li>
             <li>👟 Extra shoes and sandals</li>
             <li>🕶️ Sunglasses</li>
@@ -51,7 +51,7 @@ const Packing = () => {
         {/* Gurls  */}
         <PlanningTitle title={"I'm just a gurl 💅"} />
         <div className="bg-white m-2.5">
-          <ul class="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
+          <ul className="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
             <li>🪞 Mirror</li>
             <li>💋 Lipstick / Lip balm</li>
             <li>🧴 Moisturizer / Primer</li>
@@ -68,7 +68,7 @@ const Packing = () => {
         {/* Female Hygiene  */}
         <PlanningTitle title={"Female Hygiene 🩸"} />
         <div className="bg-white m-2.5">
-          <ul class="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
+          <ul className="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
             <li>🩲 Extra underwear</li>
             <li>🩹 Pads / Tampons / Menstrual cup</li>
             <li>🧴 Intimate wash</li>
@@ -83,7 +83,7 @@ const Packing = () => {
         {/* Snack and Hydration  */}
         <PlanningTitle title={"Snack and Hydration"} />
         <div className="bg-white m-2.5">
-          <ul class="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
+          <ul className="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
             <li>💧 Water </li>
             <li>🥤 Electrolyte drink / Sports drink</li>
             <li>🍪 Snacks</li>
@@ -95,7 +95,7 @@ const Packing = () => {
         {/* Just in case */}
         <PlanningTitle title={"Just in case"} />
         <div className="bg-white m-2.5">
-          <ul class="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
+          <ul className="list-none list-inside space-y-1 text-pink-800 font-bold m-1 p-1">
             <li>🩹 Mini first aid kit</li>
             <li>🦟 Bug spray</li>
             <li>⛱️ Umbrella</li>

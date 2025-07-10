@@ -5,7 +5,7 @@ const Budget = () => {
   return (
     <>
       <Header header="Budget" />
-      <div className="bg-pink-100 h-auto absolute top-[30%] left-[10%] w-[18rem] border-1 border-gray-50 m-1 z-10">
+      <div className="bg-pink-100 h-auto absolute top-[30%] left-[10%] lg:left-[20%] w-[18rem] border-1 border-gray-50 m-1 z-10">
         <PlanningTitle title={"3-Day Beach Trip Budget Breakdown"} />
         {/* <!-- Accommodation --> */}
         <div className="bg-white m-2 text-pink-800">
@@ -31,7 +31,7 @@ const Budget = () => {
             <li>
               🚌 Bus / Limousine to beach:{" "}
               <span className="font-medium text-gray-700">
-                ~200,000–260,000đ
+                200.000đ / person
               </span>
             </li>
             <li>
@@ -68,7 +68,7 @@ const Budget = () => {
               🍜 Day 2 Lunch: <span class="italic text-gray-500">TBD</span>
             </li>
             <li>
-              🍲 Day 2 Dinner: <span class="italic text-gray-500">TBD</span>
+              🍲 Day 2 Dinner: <span class="italic text-gray-500">~180.000 / person </span>
             </li>
             <li>
               🍞 Day 3 Breakfast: <span class="italic text-gray-500">TBD</span>
